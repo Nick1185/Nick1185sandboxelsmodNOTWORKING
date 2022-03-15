@@ -3,7 +3,7 @@ elements.remix_element_liquid = {
     name: "Powumitch",
     behavior: behaviors.LIQUID,
     state: "solid",
-  	category: "remix",
+  category: "remix",
     tick: function(pixel){
     let pixel.x = (pixel.x-(Math.cos(pixel.x-pixel.y))
     let pixelAbove = pixelMap[pixel.x-(Math.floor(Math.random() * (2 - -1)) + -1)][pixel.y-(Math.floor(Math.random() * (2 - -1)) + -1)]
