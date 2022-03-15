@@ -29,7 +29,6 @@ elements.movinPowdonGlitch = {
     behavior: behaviors.POWDER,
     category: "special",
     state: "solid",
-    let pixel.x = (pixel.x-(Math.cos(pixel.x-pixel.y))
-    let pixel.y = (pixel.y-(Math.tan(pixel.x-pixel.y))
+    let pixel.y = (pixel.y-(Math.tan(pixel.x-pixel.y)),
     density: 8,
 };
